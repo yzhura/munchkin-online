@@ -1,0 +1,52 @@
+@import "../../styles/variables";
+
+.user-card {
+  max-width: 200px;
+  position: relative;
+  margin: 0 auto 35px;
+
+  .avatar {
+    margin: 0 auto 10px;
+  }
+
+  .user-avatar-card {
+    background: $sweet-white;
+    border: 8px solid $brown;
+    border-radius: 15px;
+    padding: 7px;
+  }
+
+  .user-skills {
+    font-size: 17px;
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .btn {
+      padding: 0;
+      width: 25px;
+      border-radius: 50%;
+      height: 25px;
+      font-size: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .nickname {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .user-sum-skills {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+
+}
